@@ -1,4 +1,4 @@
-HTML::Entities::Numbered version 0.02
+HTML::Entities::Numbered version 0.03
 =====================================
 
 NAME
@@ -38,7 +38,7 @@ DESCRIPTION
     this module is used with the older, it will be exported extra hash table
     from HTML::Entities::Numbered::Extra for conversion correctness.
 
-    This bay be also useful for making XML (corrects the undefined entity
+    This may be also useful for making XML (corrects the undefined entity
     references).
 
 FUNCTIONS

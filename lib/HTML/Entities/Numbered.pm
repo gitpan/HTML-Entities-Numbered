@@ -6,7 +6,7 @@ use vars qw($VERSION @EXPORT %DECIMALS %ENTITIES);
 use base qw(Exporter);
 @EXPORT = qw(name2decimal name2hex decimal2name hex2name);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 BEGIN {
     for my $name (keys %HTML::Entities::entity2char) {
