@@ -1,4 +1,7 @@
 Revision history for Perl extension HTML::Entities::Numbered
 
+0.02  Tue Aug 11 21:47:53 2004
+	- corrected my tiny typo in a portion of POD ...
+
 0.01  Tue Aug 10 17:35:29 2004
 	- original version

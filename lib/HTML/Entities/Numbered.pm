@@ -6,7 +6,7 @@ use vars qw($VERSION @EXPORT %DECIMALS %ENTITIES);
 use base qw(Exporter);
 @EXPORT = qw(name2decimal name2hex decimal2name hex2name);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 BEGIN {
     for my $name (keys %HTML::Entities::entity2char) {
@@ -106,7 +106,7 @@ If this module is used with the older, it will be exported extra hash
 table from L<HTML::Entities::Numbered::Extra> for conversion
 correctness.
 
-This bay be also useful for making XML (corrects the undefined entity
+This may be also useful for making XML (corrects the undefined entity
 references).
 
 =head1 FUNCTIONS
